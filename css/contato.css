@@ -1,0 +1,143 @@
+/* Reset de estilos padrão */
+* {
+    
+    list-style-type: none;
+}
+
+/* Estilos para o corpo do documento */
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #333333;
+    background-color: #061F78;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4DBF3B;
+    color: white;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
+}
+
+
+#area-logo h1 {
+    background-image: url('../img/luigi_logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.carrinho {
+    background: url('../img/luigi_card.png') no-repeat top right;
+    background-size: contain;
+    font-size: 14px;
+    padding-right: 60px;
+    text-align: right;
+    width: 100px;
+    height: 100px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    text-align: right;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    background-color: #061F78;
+    color: white;
+    padding: 20px;
+}
+
+main h2 {
+    color: #4DBF3B;
+    border-bottom: 2px solid #4DBF3B;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+main p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Estilos para a barra lateral (aside) */
+aside {
+    background-color: #4DBF3B;
+    color: white;
+    padding: 20px;
+    overflow: hidden; /* Clear floats */
+}
+
+aside h2 {
+    color: #061F78;
+    border-bottom: 2px solid #061F78;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #4DBF3B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+    width: 952px;
+    margin: 0 auto !important;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+.social {
+    list-style: none;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #007dc6;
+}
+
+.social a[href*="linkedin.com"] {
+    background-image: url('../root/img/linkedin.png');
+}
+
+.social a[href*="github.com"] {
+    background-image: url('../root/img/github.png');
+}
